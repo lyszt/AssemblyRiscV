@@ -14,3 +14,5 @@ info registers eax -> show register information (0x1)
 (or another register), ebx
 
 ![img_1.png](img_1.png)
+
+x/x $ebx - this prints value and adress in register
