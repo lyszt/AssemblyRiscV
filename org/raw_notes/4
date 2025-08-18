@@ -1,0 +1,30 @@
+# Arquitetura dos Conjuntos de Instruções
+
+> Opcode, operand, 
+- Classes de Instruções
+
+
+| Letra | Significado |
+| -------------- | --------------- |
+| B | Branch (IF) |
+| LOAD, STORE, MOV  |  Exemplo de Funções de Movimentação de Dados |
+| NOP, EN_INT |  Operações de controle   |
+
+## A instrução Assembly
+> Toda instrução tem uma sintaxe e uma semântica
+
+
+```Assembly
+push op; 
+```
+> Pilha (topo) <- Operand 
+
+### Variable declaration
+
+```assembly 
+.data 
+txt ascii "oi"
+``` 
+--- 
+```language assembly
+```
